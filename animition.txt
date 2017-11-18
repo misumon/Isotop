@@ -1,0 +1,36 @@
+ 1 Link to the CSS animation library
+
+Link to Animate.css
+(You can link to another CSS animation library by changing wow.js settings)
+
+<link rel="stylesheet" href="css/animate.css">
+
+
+
+
+ 2 Link and activate wow.js
+
+              <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+
+
+ 1 Make an element revealable
+
+Add the CSS class .wow to a HTML element: it will be invisible until the user scrolls to reveal it.
+(You can change this CSS class in the WOW settings to avoid name conflicts.)
+
+                <div class="wow">
+                Content to Reveal Here
+                </div>
+
+
+ 2 Choose the animation style
+
+Pick an animation style in Animate.css , then add the CSS class to the HTML element
+
+                  <div class="wow bounceInUp">
+                  Content to Reveal Here
+                  </div>
